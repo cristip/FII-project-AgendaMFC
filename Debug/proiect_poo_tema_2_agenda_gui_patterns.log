@@ -1,0 +1,64 @@
+﻿Build started 11.06.2012 21:57:19.
+     1>Project "C:\Users\Cristi\documents\visual studio 2010\Projects\proiect_poo_tema_2_agenda_gui_patterns\proiect_poo_tema_2_agenda_gui_patterns\proiect_poo_tema_2_agenda_gui_patterns.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\proiect_poo_tema_2_agenda_gui_patterns.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\proiect_poo_tema_2_agenda_gui_patterns.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\proiect_poo_tema_2_agenda_gui_patterns.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\proiect_poo_tema_2_agenda_gui_patterns.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AboutDialog.cpp AddNewContactDialog.cpp AgendaDlg.cpp EditContactDialog.cpp ModelAgenda.cpp ModelContact.cpp proiect_poo_tema_2_agenda_gui_patterns.cpp
+         proiect_poo_tema_2_agenda_gui_patterns.cpp
+         ModelContact.cpp
+     1>c:\users\cristi\documents\visual studio 2010\projects\proiect_poo_tema_2_agenda_gui_patterns\proiect_poo_tema_2_agenda_gui_patterns\modelcontact.cpp(115): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\cristi\documents\visual studio 2010\projects\proiect_poo_tema_2_agenda_gui_patterns\proiect_poo_tema_2_agenda_gui_patterns\modelcontact.cpp(125): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\wchar.h(866) : see declaration of '_itow'
+         ModelAgenda.cpp
+     1>c:\users\cristi\documents\visual studio 2010\projects\proiect_poo_tema_2_agenda_gui_patterns\proiect_poo_tema_2_agenda_gui_patterns\modelagenda.cpp(55): warning C4018: '<' : signed/unsigned mismatch
+         EditContactDialog.cpp
+         AgendaDlg.cpp
+     1>c:\users\cristi\documents\visual studio 2010\projects\proiect_poo_tema_2_agenda_gui_patterns\proiect_poo_tema_2_agenda_gui_patterns\agendadlg.cpp(215): warning C4244: 'initializing' : conversion from 'ULONGLONG' to 'unsigned int', possible loss of data
+     1>c:\users\cristi\documents\visual studio 2010\projects\proiect_poo_tema_2_agenda_gui_patterns\proiect_poo_tema_2_agenda_gui_patterns\agendadlg.cpp(348): warning C4018: '<' : signed/unsigned mismatch
+         AddNewContactDialog.cpp
+         AboutDialog.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /IDebug\ /nologo /fo"Debug\proiect_poo_tema_2_agenda_gui_patterns.res" proiect_poo_tema_2_agenda_gui_patterns.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\proiect_poo_tema_2_agenda_gui_patterns.exe.embed.manifest.res" Debug\proiect_poo_tema_2_agenda_gui_patterns_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Cristi\documents\visual studio 2010\Projects\proiect_poo_tema_2_agenda_gui_patterns\Debug\proiect_poo_tema_2_agenda_gui_patterns.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\proiect_poo_tema_2_agenda_gui_patterns.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Cristi\documents\visual studio 2010\Projects\proiect_poo_tema_2_agenda_gui_patterns\Debug\proiect_poo_tema_2_agenda_gui_patterns.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Cristi\documents\visual studio 2010\Projects\proiect_poo_tema_2_agenda_gui_patterns\Debug\proiect_poo_tema_2_agenda_gui_patterns.lib" /MACHINE:X86 Debug\proiect_poo_tema_2_agenda_gui_patterns.res
+         Debug\proiect_poo_tema_2_agenda_gui_patterns.exe.embed.manifest.res
+         Debug\AboutDialog.obj
+         Debug\AddNewContactDialog.obj
+         Debug\AgendaDlg.obj
+         Debug\EditContactDialog.obj
+         Debug\ModelAgenda.obj
+         Debug\ModelContact.obj
+         Debug\proiect_poo_tema_2_agenda_gui_patterns.obj
+         Debug\stdafx.obj
+       Manifest:
+         Deleting file "Debug\proiect_poo_tema_2_agenda_gui_patterns.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\proiect_poo_tema_2_agenda_gui_patterns.exe.embed.manifest" /manifest Debug\proiect_poo_tema_2_agenda_gui_patterns.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\proiect_poo_tema_2_agenda_gui_patterns.exe.embed.manifest.res" Debug\proiect_poo_tema_2_agenda_gui_patterns_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Cristi\documents\visual studio 2010\Projects\proiect_poo_tema_2_agenda_gui_patterns\Debug\proiect_poo_tema_2_agenda_gui_patterns.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\proiect_poo_tema_2_agenda_gui_patterns.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Cristi\documents\visual studio 2010\Projects\proiect_poo_tema_2_agenda_gui_patterns\Debug\proiect_poo_tema_2_agenda_gui_patterns.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Cristi\documents\visual studio 2010\Projects\proiect_poo_tema_2_agenda_gui_patterns\Debug\proiect_poo_tema_2_agenda_gui_patterns.lib" /MACHINE:X86 Debug\proiect_poo_tema_2_agenda_gui_patterns.res
+         Debug\proiect_poo_tema_2_agenda_gui_patterns.exe.embed.manifest.res
+         Debug\AboutDialog.obj
+         Debug\AddNewContactDialog.obj
+         Debug\AgendaDlg.obj
+         Debug\EditContactDialog.obj
+         Debug\ModelAgenda.obj
+         Debug\ModelContact.obj
+         Debug\proiect_poo_tema_2_agenda_gui_patterns.obj
+         Debug\stdafx.obj
+         proiect_poo_tema_2_agenda_gui_patterns.vcxproj -> C:\Users\Cristi\documents\visual studio 2010\Projects\proiect_poo_tema_2_agenda_gui_patterns\Debug\proiect_poo_tema_2_agenda_gui_patterns.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\proiect_poo_tema_2_agenda_gui_patterns.unsuccessfulbuild".
+         Touching "Debug\proiect_poo_tema_2_agenda_gui_patterns.lastbuildstate".
+     1>Done Building Project "C:\Users\Cristi\documents\visual studio 2010\Projects\proiect_poo_tema_2_agenda_gui_patterns\proiect_poo_tema_2_agenda_gui_patterns\proiect_poo_tema_2_agenda_gui_patterns.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.04
