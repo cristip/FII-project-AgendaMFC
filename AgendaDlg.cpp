@@ -371,11 +371,17 @@ void AgendaDlg::OnNMDblclkList1(NMHDR *pNMHDR, LRESULT *pResult)
 	LPNMITEMACTIVATE pNMItemActivate = reinterpret_cast<LPNMITEMACTIVATE>(pNMHDR);
 	int selectedIndex = pNMItemActivate->iItem;
 	*pResult = 0;
-
+	if(selectedIndex >= Agenda::getInstance().getContacts().size())
+	{
+		return;
+	}
 	Contact& contact = Agenda::getInstance().getContactAt(selectedIndex);
 	
 	EditContactDialog editDialog;
 	editDialog.EditContact(contact);
+
+
+	
 }
 
 
